@@ -4,14 +4,274 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>カラムレイアウト</title>
 
     <!-- style -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
 <body>
+  <h2 class="mt-5 mb-1 text-center">練習</h2>
+  <div class="text-danger">ボタン</div>
   
-    
+  <!-- レイアウト グリッドシステム -->
+  <h2 class="mt-5 mb-1 text-center">練習</h2>
+  <div class="text-danger">ボタン</div>
+
+  <!-- レイアウト(グリッドシステム) -->
+  <!-- <h2 class="mt-5 mb-1 text-center">シングルカラムレイアウト</h2>
+  <div class="container text-light">
+      <div class="row">
+          <div class="col-12 bg-danger">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis maxime dicta nam ullam et quo necessitatibus, perspiciatis veritatis impedit vitae, aspernatur maiores laboriosam inventore a facilis libero, nihil earum. Deserunt!
+          </div>
+      </div>
+      <div class="row">
+          <div class="col-12 bg-success">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Id aspernatur magnam excepturi ut aperiam eius quaerat sapiente ducimus, vitae eveniet consequuntur illo nulla hic officiis qui quam error esse dolor?
+          </div>
+      </div>
+      <div class="row">
+          <div class="col-12 bg-info">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Id aspernatur magnam excepturi ut aperiam eius quaerat sapiente ducimus, vitae eveniet consequuntur illo nulla hic officiis qui quam error esse dolor?
+          </div>
+      </div>
+  </div> -->
+
+  <div class="container text-light">
+      <div class="row">
+          <div class="col12 bg-warning">
+              広島県立尾道商業高等学校文字の多さによって長さが変わるよ
+          </div>
+      </div>
+  </div>
+  <div class="container text-light">
+      <div class="row">
+          <div class="col12 bg-info">
+              広島県立広島商業高等学校<br>改行をするとこうなるよ
+          </div>
+      </div>
+  </div>
+  <div class="container text-light">
+      <div class="row">
+          <div class="col1 bg-primary">
+              広島県立福山商業高等学校端っこまで文字が増えると折り返してこっちに返ってくるようになるよ
+          </div>
+      </div>
+  </div>
+
+  <!-- <h2 class="mt-5 mb-1 text-center">マルチカラムレイアウト</h2>
+  <div class="container text-light">
+      <div class="row bg-secondary">
+          <div class="col-12">header</div>
+      </div>
+      <div class="row">
+          <div class="col-2 bg-info">
+              sidebar
+          </div>
+          <div class="col-10">
+              <div class="row bg-danger">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus amet ipsa autem quod mollitia, doloribus dolorem quidem nesciunt dolorum fugiat minima libero modi, eaque dolore consectetur repellendus ratione beatae reiciendis?
+              </div>
+              <div class="row bg-warning">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus amet ipsa autem quod mollitia, doloribus dolorem quidem nesciunt dolorum fugiat minima libero modi, eaque dolore consectetur repellendus ratione beatae reiciendis?
+              </div>
+              <div class="row bg-dark">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus amet ipsa autem quod mollitia, doloribus dolorem quidem nesciunt dolorum fugiat minima libero modi, eaque dolore consectetur repellendus ratione beatae reiciendis?
+              </div>
+          </div>
+      </div>
+      <div class="row bg-primary text-light">
+          <div class="col-12">footer</div>
+      </div>
+  </div> -->
+
+  <h2 class="mt-5 mt-1 text-center">マルチカラムレイアウトだよ</h2>
+    <div class="container text-light">
+        <div class="row bg-secondary">
+            <div class="col2">ヘッダー</div>
+        </div>
+        <div class="row">
+            <div class="col-2 bg-warning">
+                サイドだよ
+            </div>
+            <div class="col-10">
+                <div class="row bg-info">ブロック要素は縦に並ぶよ</div>
+                <div class="row bg-danger">margin.paddingの指定ができるよ</div>
+                <div class="row bg-info">width.heightの指定ができるよ。ここの文字が増えたらサイドだよのところとrowbgのところの高さが高くなるよ</div>
+            </div>
+        </div>
+        <div class="row bg-primary text-light">
+            フッターだよ
+        </div>
+ 
+  
+  <!-- <h2 class="mt-5 mb-1 text-center">グリッドレイアウト</h2>
+  <div class="container">
+      <div class="row p-3 justify-content-around">
+          <div class="col-3 border border-success">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. At, in.
+          </div>
+          <div class="col-3 border border-success">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. At, in.
+          </div>
+          <div class="col-3 border border-success">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. At, in.
+          </div>
+      </div>
+      <div class="row p-3 justify-content-around">
+          <div class="col-3 border border-danger">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, earum?
+          </div>
+          <div class="col-3 border border-danger">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, earum?
+          </div>
+          <div class="col-3 border border-danger">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, earum?
+          </div>
+      </div>
+      <div class="row p-3 justify-content-around">
+          <div class="col-2 border border-warning">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, earum?
+          </div>
+          <div class="col-2 border border-warning">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, earum?
+          </div>
+          <div class="col-2 border border-warning">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, earum?
+          </div>
+          <div class="col-2 border border-warning">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, earum?
+          </div>
+      </div>
+  </div> -->
+
+  <h2 class="mt-5 mb-1 text-center">グリッドレイアウト</h2>
+  <div class="container">
+        <div class="row p-3 justify-content-around">
+                <div class="col-3 border border-success">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. At, in.
+                </div>
+                <div class="col-3 border border-success">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. At, in.
+                </div>
+                <div class="col-3 border border-success">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. At, in.
+                </div>
+        </div>
+  </div>
+  <div class="container">
+        <div class="row p-3 justify-content-around">
+                <div class="col-3 border border-danger">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. At, in.
+                </div>
+                <div class="col-3 border border-danger">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. At, in.
+                </div>
+                <div class="col-3 border border-danger">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. At, in.
+                </div>
+        </div>
+  </div>
+  <div class="container">
+        <div class="row p-3 justify-content-around">
+                <div class="col-2 border border-success">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. At, in.
+                </div>
+                <div class="col-2 border border-success">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. At, in.
+                </div>
+                <div class="col-2 border border-success">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. At, in.
+                </div>
+        </div>
+  </div>
+
+  <!-- <h2 class="mt-5 mb-1 text-center">レスポンシブ対応</h2>
+  <div class="container">
+      <h3 class="mt-5">常に横並び</h3>
+      <div class="row">
+          <button class="col-4 btn btn-success">ボタン</button>
+          <button class="col-4 btn btn-info">ボタン</button>
+          <button class="col-4 btn btn-danger">ボタン</button>
+      </div> -->
+
+    <h2 class="mt-5 mb-1 text-center">レスポンシブ対応</h2>
+    <div class="container">
+        <h3 class="mt-5">常に横並び</h3>
+        <div class="row">
+            <div class="col-4 btn btn-success">字が</div>
+            <div class="col-4 btn btn-info">見え</div>
+            <div class="col-4 btn btn-success">にくいです</div>
+        </div>
+    </div>
+
+      <!-- <h3 class="mt-5">小さい画面になると横→縦</h3>
+      <div class="row">
+          <button class="col-sm-4 btn btn-success">ボタン</button>
+          <button class="col-sm-4 btn btn-info">ボタン</button>
+          <button class="col-sm-4 btn btn-danger">ボタン</button>
+      </div> -->
+
+      <h3 class="mt-5">小さい画面になると横から縦並びになるよ</h3>
+      <div class="row">
+          <button class="col-sm-4 btn btn-info">buttomタグで</button>
+          <button class="col-sm-4 btn btn-success">smをつけると</button>
+          <button class="col-sm-4 btn btn-info">こんな感じに勝手にしてくれるよ</button>
+      </div>
+
+      <!-- <h3 class="mt-5">中くらいの画面になると横→縦</h3>
+      <div class="row">
+          <button class="col-md-4 btn btn-success">ボタン</button>
+          <button class="col-md-4 btn btn-info">ボタン</button>
+          <button class="col-md-4 btn btn-danger">ボタン</button>
+      </div> -->
+
+      <h3 class="mt-5">中くらいの画面になると横から縦になるよ</h3>
+      <div class="row">
+          <button class="col-md-4 btn btn-success">レスポンシブデザインで</button>
+          <button class="col-md-4 btn btn-info">大事なのは</button>
+          <button class="col-md-4 btn btn-success">mdとかsmとかなのかなと思ったよ</button>
+      </div>
+
+      <!-- <h3 class="mt-5">大きい画面で横→縦</h3>
+      <div class="row">
+          <button class="col-lg-4 btn btn-success">ボタン</button>
+          <button class="col-lg-4 btn btn-info">ボタン</button>
+          <button class="col-lg-4 btn btn-danger">ボタン</button>
+      </div> -->
+
+      <h3 class="mt-5">大きい画面で横から縦になるよ</h3>
+      <div class="row">
+          <button class="col-lg-4 btn btn-info">最後のやつは</button>
+          <button class="col-lg-4 btn btn-success">4のところを変えたらどうなるのかを</button>
+          <button class="col-lg-4 btn btn-info">やってみようと思うよ</button>
+      </div>
+
+      <!-- <h3 class="mt-5">すごい大きい画面で横→縦</h3>
+      <div class="row">
+          <button class="col-xl-4 btn btn-success">ボタン</button>
+          <button class="col-xl-4 btn btn-info">ボタン</button>
+          <button class="col-xl-4 btn btn-danger">ボタン</button>
+      </div> -->
+
+      <h3 class="mt-5">4のところの数字を変えてみるよ</h3>
+      <div class="row">
+          <button class="col-xl-2 btn btn-info">今から</button>
+          <button class="col-xl-2 btn btn-success">2にするよ</button>
+          <button class="col-xl-2 btn btn-info">変えてみるよ6個分しか表示されないから半分になったよ</button>
+      </div>
+
+
+
+
+
+
+
+
+
+
+  </div>
+  
 
 
 
